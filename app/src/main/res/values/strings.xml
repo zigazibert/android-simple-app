@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Simple App</string>
+    <string name="title1">How old are you?</string>
+    <string name="title2">Input URL address: </string>
+    <string name="button1">Send</string>
+    <string name="button2">Open</string>
+    <string name="http">http://</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_sub">SubActivity</string>
+    <string name="hello_world">Hello world!</string>
+
+</resources>
