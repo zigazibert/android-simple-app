@@ -24,13 +24,13 @@ Intent
 
 Is an abstract description of an operation to be performed. It glues together different parts of Android system. Most commonly it is used with startActivity to launch an Activity.
 
-There are two primary forms of intens we will use:
-**explicit intents (we specify exact class/activity to be run)
+##There are two primary forms of intens we will use:
+* explicit intents (we specify exact class/activity to be run)
 ```java
 Intent glue = new Intent(MainActivity.this, SubActivity.class);
 startActivity(glue);
 ```
-**implicit intents (we include enough information for the system to determine which of the available components is best to run for that intent)
+* implicit intents (we include enough information for the system to determine which of the available components is best to run for that intent)
 ```java
 Intent glue = new Intent(Intent.ACTION_VIEW, Uri.parse("http://" + url));
 startActivity(glue);
